@@ -1,0 +1,92 @@
+body{
+    background-color: #F2EBE3 !important;
+}
+.parent{
+    height: 30em;
+    justify-content: center;
+    margin-top: 25%;
+}
+img.img-fluid {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+label {
+    color: #c0bfc7;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .3rem;
+}
+h1{
+    font-family: Fraunces;
+    width: 7em;
+}
+p{
+    width: 15em;
+    color: grey;
+    line-height: 29px;
+}
+span.ex-price{
+    margin-left: 1em;
+    color: grey;
+    text-decoration: line-through;
+}
+span.price {
+    color: #3C8067;
+    font-family: 'Fraunces';
+    font-size: 2rem;
+}
+button{
+    display: block;
+    border: none;
+    background: #3d8168;
+    color: white;
+    padding: 0.5rem 3.5rem;
+    border-radius: 4px !important;
+}
+.image {
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: 100% 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.descripe {
+    background: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2em;
+}
+@media (max-width: 767.98px) { 
+    .col-sm-12.col-md-6.col-lg-4.image {
+        height: 24em;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    .col-md-6.col-lg-4.descripe{ 
+   border-radius: 0px;
+    display: flex;
+    justify-content: center;
+
+    }
+    h1 {
+        font-family: Fraunces;
+        width: 10em;
+    }
+    p {
+        width: 20em;
+   
+    }
+    .row.parent {
+        width: 28rem;
+        margin-top: 5%;
+
+    }
+    button {
+    
+        padding: 0.5rem 9.5rem;
+        margin-top: 16px !important;
+     
+     
+    }
+  
+ }
